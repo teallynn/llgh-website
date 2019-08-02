@@ -1,0 +1,11 @@
+state: enabled
+email: teallynnlar@gmail.com
+fullname: 'Mika Larsen'
+title: Admin
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$gbhUl2BdRL31dHyBMTAoaeDbNvCMg0MAP1SbrMBa6Wi0G/Qya//82

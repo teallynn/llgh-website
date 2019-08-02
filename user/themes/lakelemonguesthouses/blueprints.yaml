@@ -1,0 +1,13 @@
+name: Lakelemonguesthouses
+version: 0.1.0
+description: Lake Lemon GH theme
+icon: rebel
+author:
+  name: Teal
+  email: teallynnlar@gmail.com
+homepage: https://github.com/teallynn/grav-theme-lakelemonguesthouses
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/teallynn/grav-theme-lakelemonguesthouses/issues
+readme: https://github.com/teallynn/grav-theme-lakelemonguesthouses/blob/develop/README.md
+license: MIT
