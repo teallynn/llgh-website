@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1564771997,
-    'checksum' => 'ed19479687d18db8f6106d12e4991206',
+    'timestamp' => 1564779806,
+    'checksum' => 'd6bb03dc4aa2106d3ed87ce8cedd8410',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -12,6 +12,10 @@ return [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1564770921
+            ],
+            'plugins/uikitifier' => [
+                'file' => 'user/config/plugins/uikitifier.yaml',
+                'modified' => 1564775238
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
@@ -31,7 +35,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1564771995
+                'modified' => 1564779772
             ]
         ],
         'system/config' => [
@@ -280,6 +284,44 @@ return [
                 ],
                 'content_type' => 'text/html',
                 'debug' => false
+            ],
+            'uikitifier' => [
+                'enabled' => true,
+                'always_load' => true,
+                'mode' => 'staging',
+                'load_uikit' => true,
+                'style' => 'flat',
+                'customizer' => [
+                    'enabled' => false,
+                    'name' => NULL
+                ],
+                'load_all' => true,
+                'load_component_accordion' => true,
+                'load_component_autocomplete' => true,
+                'load_component_cover' => true,
+                'load_component_datepicker' => false,
+                'load_component_dotnav' => false,
+                'load_component_form_advanced' => false,
+                'load_component_form_file' => false,
+                'load_component_form_password' => false,
+                'load_component_form_select' => false,
+                'load_component_grid' => true,
+                'load_component_htmleditor' => false,
+                'load_component_lightbox' => false,
+                'load_component_nestable' => false,
+                'load_component_notify' => false,
+                'load_component_pagination' => false,
+                'load_component_placeholder' => false,
+                'load_component_progress' => false,
+                'load_component_search' => true,
+                'load_component_slideshow' => false,
+                'load_component_slideshow-fx' => false,
+                'load_component_slidenav' => false,
+                'load_component_sortable' => false,
+                'load_component_sticky' => true,
+                'load_component_timepicker' => false,
+                'load_component_tooltip' => true,
+                'load_component_upload' => false
             ]
         ],
         'backups' => [
@@ -703,7 +745,7 @@ node_modules'
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'quark',
+                'theme' => 'lakelemonguesthouses',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'

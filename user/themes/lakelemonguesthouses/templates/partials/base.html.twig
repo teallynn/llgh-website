@@ -23,6 +23,8 @@
     {% do assets.addCss('theme://css-compiled/theme'~compress) %}
     {% do assets.addCss('theme://css/custom.css') %}
     {% do assets.addCss('theme://css/llghcustom.css') %}
+    {% do assets.addCss('theme://css/uikit.css') %}
+    {% do assets.addCss('theme://css/uikit-rtl.css') %}
     {% do assets.addCss('theme://css/line-awesome.min.css') %}
 {% endblock %}
 
@@ -30,6 +32,10 @@
     {% do assets.addJs('jquery', 101) %}
     {% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
     {% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
+    {% do assets.addJs('theme://js/uikit.js') %}
+    {% do assets.addJs('theme://js/uikit.min.js') %}
+    {% do assets.addJs('theme://js/uikit-icons.js') %}
+    {% do assets.addJs('theme://js/uikit-icons.min.js') %}
 {% endblock %}
 
 {% block assets deferred %}

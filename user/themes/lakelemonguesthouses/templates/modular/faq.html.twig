@@ -1,0 +1,14 @@
+<div>
+{{ content|raw }}
+<div>
+
+<ul uk-accordion="multiple: true">
+{% for faq in page.header.faqs %}
+    <li class="">
+        <a class="uk-accordion-title" href="#">{{ faq.question }}</a>
+        <div class="uk-accordion-content">
+            <p>{{ faq.answer }}</p>
+        </div>
+    </li>
+{% endfor %}
+</ul>

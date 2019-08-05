@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/teal/dev/grav/grav-skeleton-onepage-site/user/config/system.yaml',
-    'modified' => 1564771995,
+    'modified' => 1564779772,
     'data' => [
         'home' => [
             'alias' => '/home'
         ],
         'pages' => [
-            'theme' => 'quark',
+            'theme' => 'lakelemonguesthouses',
             'markdown' => [
                 'extra' => false
             ],
